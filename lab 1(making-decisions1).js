@@ -7,7 +7,6 @@
 */
 
 //CODE HERE
-var lovescode
 const lovescode = true
 
 // For problems 2-3 use the following lines of code:
@@ -44,7 +43,7 @@ if (amysBirthYear === brittanisBirthYear) {
 }
 ////////// PROBLEM 4 //////////
 
-let temperature = 55;
+let temperature = 85;
 let rain = true;
 
 /*
@@ -53,11 +52,11 @@ let rain = true;
 */
 
 //CODE HERE
-if (temperature <= 60) while (rain = true) {
-  cosole.log('get a rain coat and umbrella')
-} else if (temperature >= 60 && temperature <= 80) while (rain = true) {
+if (temperature <= 60 && rain) {
+  console.log('get a rain coat and umbrella')
+} else if (temperature >= 60 && temperature <= 80 && rain) {
   console.log('grab a jacket and umbrella')
-} else while (rain = true) {
+} else {
   console.log('dancing in the rain with T shirt')
 }
 ////////// PROBLEM 5 //////////
@@ -100,7 +99,7 @@ let passingScore = 7;
 */
 
 //CODE HERE
-if (score < 6) while (passingScore = 7) {
+while (score < passingScore)  {
   console.log('Your score is not high enough')
   score += 1
 }
@@ -114,8 +113,14 @@ if (score < 6) while (passingScore = 7) {
 */
 
 //CODE HERE
-var changeMyMind = false
-
+let changeMyMind = false
+console.log(changemymind)
+if (changeMyMind === false)  {
+changeMyMind = true
+} else { 
+changeMyMind = false
+}
+console.log(changeMyMind)
 ////////// PROBLEM 10 //////////
 // Using the "not" operator (!), change the current value of changeMyMind to true (it should currently be set to false due to the if-else statement in Problem 9). After you change the value of changeMyMind, console.log it's new value (it should now read true).
 
